@@ -4,9 +4,9 @@ This repository contains various XAF (eXpressApp Framework) live templates for J
 
 ## Installation
 
-To use these templates, place the files in the following directory:
+To use these templates, add them via: File | Settings and use action in bottom left corner [Manage Layers]
 
-This file is located /Users/{User Name}/AppData/Roaming/JetBrains/{Rider Version}/resharper-host/
+Select this computer and use the [Import From...] action.
 
 ## Available Live Templates
 

@@ -1,6 +1,6 @@
 # Rider XAF Live Templates
 
-This file is located <User>\AppData\Roaming\JetBrains\<Rider Version>\resharper-host\
+This file is located \Users\<User Name>\AppData\Roaming\JetBrains\<Rider Version>\resharper-host\
 
 Contains the following XAF templates:
 

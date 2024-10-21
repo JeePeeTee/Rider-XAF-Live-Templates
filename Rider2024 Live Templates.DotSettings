@@ -1,0 +1,669 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E1E2422D4266F418CB379A846D5EFE3/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E1E2422D4266F418CB379A846D5EFE3/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E1E2422D4266F418CB379A846D5EFE3/Categories/=Sultan_0020CRM/@EntryIndexedValue">Sultan CRM</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E1E2422D4266F418CB379A846D5EFE3/Description/@EntryValue">XAF: XPO Domain Object</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E1E2422D4266F418CB379A846D5EFE3/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E1E2422D4266F418CB379A846D5EFE3/Shortcut/@EntryValue">xpo</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E1E2422D4266F418CB379A846D5EFE3/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E1E2422D4266F418CB379A846D5EFE3/Text/@EntryValue">using System.ComponentModel;
+using DevExpress.Persistent.Base;
+using DevExpress.Persistent.BaseImpl;
+using DevExpress.Xpo;
+
+    [DefaultClassOptions]    
+    [ImageName("BO_Contact")]
+    [DefaultProperty(nameof($NAME$.DefaultProperty))]
+    [CreatableItem(false)]
+    public class $NAME$ : BaseObject { 
+        public $NAME$(Session session) : base(session) { }
+
+		[VisibleInListView(false)]
+        [VisibleInDetailView(false)]
+        public string DefaultProperty =&gt; "Default Property";
+        
+		public override void AfterConstruction() {
+            base.AfterConstruction();            
+        }
+    }
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E1E2422D4266F418CB379A846D5EFE3/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E1E2422D4266F418CB379A846D5EFE3/Field/=NAME/InitialRange/@EntryValue">1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E1E2422D4266F418CB379A846D5EFE3/Field/=NAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E1E2422D4266F418CB379A846D5EFE3/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E1E2422D4266F418CB379A846D5EFE3/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E1E2422D4266F418CB379A846D5EFE3/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=114CAE40334756458DF914559FA65BBF/Text/@EntryValue">#region $name$&#xD;
+     $SELECTION$$END$&#xD;
+  #endregion $name$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=289A2B68B7382849892D61C5C2E8B489/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=289A2B68B7382849892D61C5C2E8B489/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=289A2B68B7382849892D61C5C2E8B489/Categories/=Sultan_0020CRM/@EntryIndexedValue">Sultan CRM</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=289A2B68B7382849892D61C5C2E8B489/Description/@EntryValue">XAF: XPO Boolean Prop</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=289A2B68B7382849892D61C5C2E8B489/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=289A2B68B7382849892D61C5C2E8B489/Shortcut/@EntryValue">xpb</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=289A2B68B7382849892D61C5C2E8B489/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=289A2B68B7382849892D61C5C2E8B489/Text/@EntryValue">private bool _$name$;&#xD;
+public bool $NAME$ { &#xD;
+		get =&gt; _$name$; &#xD;
+		set =&gt; SetPropertyValue(nameof($NAME$), ref _$name$, value);&#xD;
+	}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=289A2B68B7382849892D61C5C2E8B489/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=289A2B68B7382849892D61C5C2E8B489/Field/=name/Expression/@EntryValue">decapitalize(NAME)</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=289A2B68B7382849892D61C5C2E8B489/Field/=name/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=289A2B68B7382849892D61C5C2E8B489/Field/=name/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=289A2B68B7382849892D61C5C2E8B489/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=289A2B68B7382849892D61C5C2E8B489/Field/=NAME/Expression/@EntryValue">suggestVariableName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=289A2B68B7382849892D61C5C2E8B489/Field/=NAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=289A2B68B7382849892D61C5C2E8B489/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=289A2B68B7382849892D61C5C2E8B489/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=289A2B68B7382849892D61C5C2E8B489/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=355BD5A79E3A9F43A960048A0E501AD3/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=355BD5A79E3A9F43A960048A0E501AD3/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=355BD5A79E3A9F43A960048A0E501AD3/Categories/=Sultan_0020CRM/@EntryIndexedValue">Sultan CRM</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=355BD5A79E3A9F43A960048A0E501AD3/Description/@EntryValue">XAF: XPO Decimal Prop</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=355BD5A79E3A9F43A960048A0E501AD3/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=355BD5A79E3A9F43A960048A0E501AD3/Shortcut/@EntryValue">xpdec</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=355BD5A79E3A9F43A960048A0E501AD3/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=355BD5A79E3A9F43A960048A0E501AD3/Text/@EntryValue">private decimal _$name$;&#xD;
+public decimal $NAME$ { &#xD;
+		get =&gt; _$name$; &#xD;
+		set =&gt; SetPropertyValue(nameof($NAME$), ref _$name$, value);&#xD;
+	}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=355BD5A79E3A9F43A960048A0E501AD3/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=355BD5A79E3A9F43A960048A0E501AD3/Field/=name/Expression/@EntryValue">decapitalize(NAME)</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=355BD5A79E3A9F43A960048A0E501AD3/Field/=name/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=355BD5A79E3A9F43A960048A0E501AD3/Field/=name/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=355BD5A79E3A9F43A960048A0E501AD3/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=355BD5A79E3A9F43A960048A0E501AD3/Field/=NAME/Expression/@EntryValue">suggestVariableName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=355BD5A79E3A9F43A960048A0E501AD3/Field/=NAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=355BD5A79E3A9F43A960048A0E501AD3/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=355BD5A79E3A9F43A960048A0E501AD3/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=355BD5A79E3A9F43A960048A0E501AD3/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3A75F562F126B640B1B05E6745C4DBCD/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3A75F562F126B640B1B05E6745C4DBCD/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3A75F562F126B640B1B05E6745C4DBCD/Categories/=Sultan_0020CRM/@EntryIndexedValue">Sultan CRM</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3A75F562F126B640B1B05E6745C4DBCD/Description/@EntryValue">XAF: RuleRequiredField</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3A75F562F126B640B1B05E6745C4DBCD/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3A75F562F126B640B1B05E6745C4DBCD/Shortcut/@EntryValue">rrf</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3A75F562F126B640B1B05E6745C4DBCD/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3A75F562F126B640B1B05E6745C4DBCD/Text/@EntryValue">[RuleRequiredField("RuleRequiredField for $Source$.$Name$", DefaultContexts.Save, "$Name$ is verplicht!")]</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3A75F562F126B640B1B05E6745C4DBCD/Field/=Name/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3A75F562F126B640B1B05E6745C4DBCD/Field/=Name/Expression/@EntryValue">typeMember()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3A75F562F126B640B1B05E6745C4DBCD/Field/=Name/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3A75F562F126B640B1B05E6745C4DBCD/Field/=Source/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3A75F562F126B640B1B05E6745C4DBCD/Field/=Source/Expression/@EntryValue">typeName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3A75F562F126B640B1B05E6745C4DBCD/Field/=Source/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3A75F562F126B640B1B05E6745C4DBCD/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3A75F562F126B640B1B05E6745C4DBCD/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3A75F562F126B640B1B05E6745C4DBCD/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4363F78E006F684D8BB0F257B68B896D/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4363F78E006F684D8BB0F257B68B896D/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4363F78E006F684D8BB0F257B68B896D/Categories/=Sultan_0020CRM/@EntryIndexedValue">Sultan CRM</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4363F78E006F684D8BB0F257B68B896D/Description/@EntryValue">XAF: View Controller</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4363F78E006F684D8BB0F257B68B896D/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4363F78E006F684D8BB0F257B68B896D/Shortcut/@EntryValue">vwctrl</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4363F78E006F684D8BB0F257B68B896D/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4363F78E006F684D8BB0F257B68B896D/Text/@EntryValue">using DevExpress.ExpressApp;
+using DevExpress.ExpressApp.Actions;
+using DevExpress.Persistent.Base;
+using System;
+using System.ComponentModel;
+
+
+    public class $NAME$ : ViewController {
+        private readonly System.ComponentModel.IContainer components;
+
+        public $NAME$() {
+            this.components = new System.ComponentModel.Container();           
+        }
+
+		// New actions here... check templates actsmpl, act...
+
+        protected override void OnActivated() {
+            base.OnActivated();
+            
+            ObjectSpace.ModifiedChanged += ObjectSpace_ModifiedChanged;
+            UpdateActionState();
+        }
+
+        protected override void OnViewControlsCreated() {
+            base.OnViewControlsCreated();
+            // Access and customize the target View control.
+        }
+
+        protected override void OnDeactivated() {
+            ObjectSpace.ModifiedChanged -= ObjectSpace_ModifiedChanged;
+            base.OnDeactivated();
+        }
+
+ #region En-/Disable Action when ObjectSpace is changed!
+         
+    void ObjectSpace_ModifiedChanged(object sender, EventArgs e) {
+        UpdateActionState();
+    }
+
+    protected virtual void UpdateActionState() {
+        // &lt;&lt;Your Action Here&gt;&gt;.Enabled["ObjectSpaceIsModified"] = !ObjectSpace.IsModified;
+    }
+    
+ #endregion En-/Disable Action when ObjectSpace is changed!        
+
+        protected override void Dispose(bool disposing) {
+            if (disposing) {				
+			    foreach (var action in this.Actions) {
+                    action.Dispose();
+                }
+
+                components?.Dispose();
+            }
+
+            base.Dispose(disposing);
+        }
+    }</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4363F78E006F684D8BB0F257B68B896D/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4363F78E006F684D8BB0F257B68B896D/Field/=NAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4363F78E006F684D8BB0F257B68B896D/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4363F78E006F684D8BB0F257B68B896D/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4363F78E006F684D8BB0F257B68B896D/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=62910B2BBA028A40B4167FE5C01D12DF/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=62910B2BBA028A40B4167FE5C01D12DF/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=62910B2BBA028A40B4167FE5C01D12DF/Categories/=Sultan_0020CRM/@EntryIndexedValue">Sultan CRM</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=62910B2BBA028A40B4167FE5C01D12DF/Description/@EntryValue">XAF: Action Disable</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=62910B2BBA028A40B4167FE5C01D12DF/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=62910B2BBA028A40B4167FE5C01D12DF/Shortcut/@EntryValue">actdisable</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=62910B2BBA028A40B4167FE5C01D12DF/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=62910B2BBA028A40B4167FE5C01D12DF/Text/@EntryValue">        protected override void OnActivated()
+        {
+            base.OnActivated();
+
+            ObjectSpace.ModifiedChanged += ObjectSpace_ModifiedChanged;
+            UpdateActionState();
+        }
+
+        protected override void OnDeactivated()
+        {
+            ObjectSpace.ModifiedChanged -= ObjectSpace_ModifiedChanged;
+            base.OnDeactivated();
+        }
+
+        // ===============================================
+        // En-/Disable Action when ObjectSpace is changed!
+        // ===============================================
+        void ObjectSpace_ModifiedChanged(object sender, EventArgs e)
+        {
+            UpdateActionState();
+        }
+        protected virtual void UpdateActionState()
+        {
+            $NAME$.Enabled["ObjectSpaceIsModified"] = !ObjectSpace.IsModified;
+        }</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=62910B2BBA028A40B4167FE5C01D12DF/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=62910B2BBA028A40B4167FE5C01D12DF/Field/=NAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=62910B2BBA028A40B4167FE5C01D12DF/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=62910B2BBA028A40B4167FE5C01D12DF/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=62910B2BBA028A40B4167FE5C01D12DF/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B7CEDD81AE45F43A67C2051F635B9EB/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B7CEDD81AE45F43A67C2051F635B9EB/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B7CEDD81AE45F43A67C2051F635B9EB/Categories/=Sultan_0020CRM/@EntryIndexedValue">Sultan CRM</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B7CEDD81AE45F43A67C2051F635B9EB/Description/@EntryValue">XAF: XPO associated collection</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B7CEDD81AE45F43A67C2051F635B9EB/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B7CEDD81AE45F43A67C2051F635B9EB/Shortcut/@EntryValue">xpcl</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B7CEDD81AE45F43A67C2051F635B9EB/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B7CEDD81AE45F43A67C2051F635B9EB/Text/@EntryValue">[Association("Program-$NAME$")]&#xD;
+public XPCollection&lt;$TYPE$&gt; $NAME$ {&#xD;
+    get =&gt; GetCollection&lt;$TYPE$&gt;(nameof($NAME$));    &#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B7CEDD81AE45F43A67C2051F635B9EB/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B7CEDD81AE45F43A67C2051F635B9EB/Field/=NAME/Expression/@EntryValue">suggestVariableType()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B7CEDD81AE45F43A67C2051F635B9EB/Field/=NAME/InitialRange/@EntryValue">1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B7CEDD81AE45F43A67C2051F635B9EB/Field/=NAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B7CEDD81AE45F43A67C2051F635B9EB/Field/=TYPE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B7CEDD81AE45F43A67C2051F635B9EB/Field/=TYPE/Expression/@EntryValue">parameterOfType("System.String")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B7CEDD81AE45F43A67C2051F635B9EB/Field/=TYPE/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B7CEDD81AE45F43A67C2051F635B9EB/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B7CEDD81AE45F43A67C2051F635B9EB/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B7CEDD81AE45F43A67C2051F635B9EB/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79A4AE7B1D31F842A297F94099458EEF/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79A4AE7B1D31F842A297F94099458EEF/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79A4AE7B1D31F842A297F94099458EEF/Categories/=Sultan_0020CRM/@EntryIndexedValue">Sultan CRM</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79A4AE7B1D31F842A297F94099458EEF/Description/@EntryValue">XAF: XPO associated property</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79A4AE7B1D31F842A297F94099458EEF/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79A4AE7B1D31F842A297F94099458EEF/Shortcut/@EntryValue">xpa</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79A4AE7B1D31F842A297F94099458EEF/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79A4AE7B1D31F842A297F94099458EEF/Text/@EntryValue">private $TYPE$ _$name$;
+[Association("$TYPE$-Programs")]
+public $TYPE$ $NAME$ {
+    get =&gt; _$name$;
+    set =&gt; SetPropertyValue(nameof($NAME$), ref _$name$, value);
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79A4AE7B1D31F842A297F94099458EEF/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79A4AE7B1D31F842A297F94099458EEF/Field/=name/Expression/@EntryValue">decapitalize(NAME)</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79A4AE7B1D31F842A297F94099458EEF/Field/=name/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79A4AE7B1D31F842A297F94099458EEF/Field/=name/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79A4AE7B1D31F842A297F94099458EEF/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79A4AE7B1D31F842A297F94099458EEF/Field/=NAME/Expression/@EntryValue">suggestVariableType()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79A4AE7B1D31F842A297F94099458EEF/Field/=NAME/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79A4AE7B1D31F842A297F94099458EEF/Field/=TYPE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79A4AE7B1D31F842A297F94099458EEF/Field/=TYPE/Expression/@EntryValue">parameterOfType("System.String")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79A4AE7B1D31F842A297F94099458EEF/Field/=TYPE/InitialRange/@EntryValue">2</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79A4AE7B1D31F842A297F94099458EEF/Field/=TYPE/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79A4AE7B1D31F842A297F94099458EEF/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79A4AE7B1D31F842A297F94099458EEF/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79A4AE7B1D31F842A297F94099458EEF/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F8B57941116A54EBE9B27C720EFE578/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F8B57941116A54EBE9B27C720EFE578/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F8B57941116A54EBE9B27C720EFE578/Categories/=Sultan_0020CRM/@EntryIndexedValue">Sultan CRM</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F8B57941116A54EBE9B27C720EFE578/Description/@EntryValue">XAF: XPO Integer Prop</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F8B57941116A54EBE9B27C720EFE578/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F8B57941116A54EBE9B27C720EFE578/Shortcut/@EntryValue">xpi</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F8B57941116A54EBE9B27C720EFE578/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F8B57941116A54EBE9B27C720EFE578/Text/@EntryValue">private int _$name$;&#xD;
+public int $NAME$ { &#xD;
+		get =&gt; _$name$; &#xD;
+		set =&gt; SetPropertyValue(nameof($NAME$), ref _$name$, value);&#xD;
+	}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F8B57941116A54EBE9B27C720EFE578/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F8B57941116A54EBE9B27C720EFE578/Field/=name/Expression/@EntryValue">decapitalize(NAME)</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F8B57941116A54EBE9B27C720EFE578/Field/=name/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F8B57941116A54EBE9B27C720EFE578/Field/=name/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F8B57941116A54EBE9B27C720EFE578/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F8B57941116A54EBE9B27C720EFE578/Field/=NAME/Expression/@EntryValue">suggestVariableName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F8B57941116A54EBE9B27C720EFE578/Field/=NAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F8B57941116A54EBE9B27C720EFE578/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F8B57941116A54EBE9B27C720EFE578/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F8B57941116A54EBE9B27C720EFE578/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=861AE221442919469C9224612E5546E4/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=861AE221442919469C9224612E5546E4/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=861AE221442919469C9224612E5546E4/Categories/=Sultan_0020CRM/@EntryIndexedValue">Sultan CRM</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=861AE221442919469C9224612E5546E4/Description/@EntryValue">XAF: Simple action template</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=861AE221442919469C9224612E5546E4/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=861AE221442919469C9224612E5546E4/Shortcut/@EntryValue">actsmpl</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=861AE221442919469C9224612E5546E4/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=861AE221442919469C9224612E5546E4/Text/@EntryValue">        #region Simple action: $NAME$
+
+        // ToDo: Add this to Constructor
+        // Initialize$NAME$();
+
+        private SimpleAction _$name$;
+        
+        private void Initialize$NAME$() {
+             _$name$ = new SimpleAction(this, nameof(_$name$), PredefinedCategory.View) {
+                Caption = "$NAME$",
+                ConfirmationMessage = null,
+                ImageName = "ModelEditor_Application",
+                SelectionDependencyType = SelectionDependencyType.Independent,
+                ToolTip = null,
+                TargetObjectType = typeof($TYPE$),
+                TargetViewType = ViewType.Any,
+                TargetViewNesting = Nesting.Any,
+                TargetObjectsCriteriaMode = TargetObjectsCriteriaMode.TrueAtLeastForOne,
+            };
+
+            _$name$.Execute += $NAME$Execute;
+
+            this.Actions.Add(_$name$);
+            
+        void $NAME$Execute(object sender, SimpleActionExecuteEventArgs e) {
+            using var ios = Application.CreateObjectSpace();
+         
+            ios.CommitChanges();
+
+            View.Refresh(true);
+
+			$END$
+        }
+    }
+ 
+        #endregion Simple action: $NAME$
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=861AE221442919469C9224612E5546E4/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=861AE221442919469C9224612E5546E4/Field/=name/Expression/@EntryValue">decapitalize(NAME)</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=861AE221442919469C9224612E5546E4/Field/=name/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=861AE221442919469C9224612E5546E4/Field/=name/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=861AE221442919469C9224612E5546E4/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=861AE221442919469C9224612E5546E4/Field/=NAME/InitialRange/@EntryValue">2</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=861AE221442919469C9224612E5546E4/Field/=NAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=861AE221442919469C9224612E5546E4/Field/=TYPE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=861AE221442919469C9224612E5546E4/Field/=TYPE/Expression/@EntryValue">parameterOfType("System.String")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=861AE221442919469C9224612E5546E4/Field/=TYPE/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=861AE221442919469C9224612E5546E4/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=861AE221442919469C9224612E5546E4/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=861AE221442919469C9224612E5546E4/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90D63FA084080B459A543F16658CA1D0/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90D63FA084080B459A543F16658CA1D0/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90D63FA084080B459A543F16658CA1D0/Categories/=Sultan_0020CRM/@EntryIndexedValue">Sultan CRM</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90D63FA084080B459A543F16658CA1D0/Description/@EntryValue">XAF: Attribute Read Only</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90D63FA084080B459A543F16658CA1D0/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90D63FA084080B459A543F16658CA1D0/Shortcut/@EntryValue">attro</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90D63FA084080B459A543F16658CA1D0/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90D63FA084080B459A543F16658CA1D0/Text/@EntryValue">[ModelDefault("AllowEdit", "False")]</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90D63FA084080B459A543F16658CA1D0/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90D63FA084080B459A543F16658CA1D0/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90D63FA084080B459A543F16658CA1D0/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=988C422C17E0D84FB6B0275125F805F2/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=988C422C17E0D84FB6B0275125F805F2/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=988C422C17E0D84FB6B0275125F805F2/Categories/=Sultan_0020CRM/@EntryIndexedValue">Sultan CRM</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=988C422C17E0D84FB6B0275125F805F2/Description/@EntryValue">XAF: ViewController</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=988C422C17E0D84FB6B0275125F805F2/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=988C422C17E0D84FB6B0275125F805F2/Shortcut/@EntryValue">xcv</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=988C422C17E0D84FB6B0275125F805F2/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=988C422C17E0D84FB6B0275125F805F2/Text/@EntryValue">public class $NAME$ : ViewController&#xD;
+{&#xD;
+    public $NAME$() : base()&#xD;
+    {&#xD;
+        // Target required Views (use the TargetXXX properties) and create their Actions.&#xD;
+&#xD;
+    }&#xD;
+    protected override void OnActivated()&#xD;
+    {&#xD;
+        base.OnActivated();&#xD;
+        // Perform various tasks depending on the target View.&#xD;
+    }&#xD;
+    protected override void OnDeactivated()&#xD;
+    {&#xD;
+        // Unsubscribe from previously subscribed events and release other references and resources.&#xD;
+        base.OnDeactivated();&#xD;
+    }&#xD;
+    protected override void OnViewControlsCreated()&#xD;
+    {&#xD;
+        base.OnViewControlsCreated();&#xD;
+        // Access and customize the target View control.&#xD;
+    }&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=988C422C17E0D84FB6B0275125F805F2/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=988C422C17E0D84FB6B0275125F805F2/Field/=NAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=988C422C17E0D84FB6B0275125F805F2/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=988C422C17E0D84FB6B0275125F805F2/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=988C422C17E0D84FB6B0275125F805F2/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9FABF8DACB908C4D93CFFF1E83582F43/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9FABF8DACB908C4D93CFFF1E83582F43/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9FABF8DACB908C4D93CFFF1E83582F43/Categories/=Sultan_0020CRM/@EntryIndexedValue">Sultan CRM</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9FABF8DACB908C4D93CFFF1E83582F43/Description/@EntryValue">XAF: Attribute Read Only</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9FABF8DACB908C4D93CFFF1E83582F43/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9FABF8DACB908C4D93CFFF1E83582F43/Shortcut/@EntryValue">attpos</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9FABF8DACB908C4D93CFFF1E83582F43/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9FABF8DACB908C4D93CFFF1E83582F43/Text/@EntryValue">    [ModelDefault("CommitParentObjectSpaceChanges", "True")]</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9FABF8DACB908C4D93CFFF1E83582F43/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9FABF8DACB908C4D93CFFF1E83582F43/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9FABF8DACB908C4D93CFFF1E83582F43/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A02E5198216E51468ACE79C07F4270F5/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A02E5198216E51468ACE79C07F4270F5/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A02E5198216E51468ACE79C07F4270F5/Description/@EntryValue">XAF: SimpleAction</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A02E5198216E51468ACE79C07F4270F5/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A02E5198216E51468ACE79C07F4270F5/Shortcut/@EntryValue">xas</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A02E5198216E51468ACE79C07F4270F5/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A02E5198216E51468ACE79C07F4270F5/Text/@EntryValue">        &#xD;
+		&#xD;
+		action = new SimpleAction(this, "MyAction", "View");&#xD;
+        action.Execute += action_Execute;&#xD;
+&#xD;
+		private void action_Execute(object sender, SimpleActionExecuteEventArgs e) {&#xD;
+            throw new NotImplementedException();&#xD;
+        }&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A02E5198216E51468ACE79C07F4270F5/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A02E5198216E51468ACE79C07F4270F5/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A02E5198216E51468ACE79C07F4270F5/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A1E0CF2A272495408DE94EBF64C51AEE/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A1E0CF2A272495408DE94EBF64C51AEE/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A1E0CF2A272495408DE94EBF64C51AEE/Categories/=Sultan_0020CRM/@EntryIndexedValue">Sultan CRM</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A1E0CF2A272495408DE94EBF64C51AEE/Description/@EntryValue">XAF: XPO String Prop</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A1E0CF2A272495408DE94EBF64C51AEE/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A1E0CF2A272495408DE94EBF64C51AEE/Shortcut/@EntryValue">xps</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A1E0CF2A272495408DE94EBF64C51AEE/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A1E0CF2A272495408DE94EBF64C51AEE/Text/@EntryValue">private string _$name$;&#xD;
+public string $NAME$ { &#xD;
+		get =&gt; _$name$; &#xD;
+		set =&gt; SetPropertyValue(nameof($NAME$), ref _$name$, value);&#xD;
+	}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A1E0CF2A272495408DE94EBF64C51AEE/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A1E0CF2A272495408DE94EBF64C51AEE/Field/=name/Expression/@EntryValue">decapitalize(NAME)</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A1E0CF2A272495408DE94EBF64C51AEE/Field/=name/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A1E0CF2A272495408DE94EBF64C51AEE/Field/=name/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A1E0CF2A272495408DE94EBF64C51AEE/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A1E0CF2A272495408DE94EBF64C51AEE/Field/=NAME/Expression/@EntryValue">suggestVariableType()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A1E0CF2A272495408DE94EBF64C51AEE/Field/=NAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A1E0CF2A272495408DE94EBF64C51AEE/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A1E0CF2A272495408DE94EBF64C51AEE/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A1E0CF2A272495408DE94EBF64C51AEE/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A3D4BE4E1619B14BBC205EC107617D44/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A3D4BE4E1619B14BBC205EC107617D44/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A3D4BE4E1619B14BBC205EC107617D44/Categories/=Sultan_0020CRM/@EntryIndexedValue">Sultan CRM</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A3D4BE4E1619B14BBC205EC107617D44/Description/@EntryValue">XAF: WindowController</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A3D4BE4E1619B14BBC205EC107617D44/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A3D4BE4E1619B14BBC205EC107617D44/Shortcut/@EntryValue">xcw</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A3D4BE4E1619B14BBC205EC107617D44/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A3D4BE4E1619B14BBC205EC107617D44/Text/@EntryValue">public class $NAME$ : WindowController&#xD;
+{&#xD;
+    public $NAME$() : base()&#xD;
+    {&#xD;
+        // Target required Windows (use the TargetXXX properties) and create their Actions.&#xD;
+&#xD;
+    }&#xD;
+    protected override void OnActivated()&#xD;
+    {&#xD;
+        base.OnActivated();&#xD;
+        // Perform various tasks depending on the target Window.&#xD;
+    }&#xD;
+    protected override void OnDeactivated()&#xD;
+    {&#xD;
+        // Unsubscribe from previously subscribed events and release other references and resources.&#xD;
+        base.OnDeactivated();&#xD;
+    }&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A3D4BE4E1619B14BBC205EC107617D44/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A3D4BE4E1619B14BBC205EC107617D44/Field/=NAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A3D4BE4E1619B14BBC205EC107617D44/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A3D4BE4E1619B14BBC205EC107617D44/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A3D4BE4E1619B14BBC205EC107617D44/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A6B33A6FD67ECA47B0E6B02A2A47B88A/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A6B33A6FD67ECA47B0E6B02A2A47B88A/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A6B33A6FD67ECA47B0E6B02A2A47B88A/Categories/=Sultan_0020CRM/@EntryIndexedValue">Sultan CRM</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A6B33A6FD67ECA47B0E6B02A2A47B88A/Description/@EntryValue">XAF: XPO Double Prop</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A6B33A6FD67ECA47B0E6B02A2A47B88A/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A6B33A6FD67ECA47B0E6B02A2A47B88A/Shortcut/@EntryValue">xpdbl</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A6B33A6FD67ECA47B0E6B02A2A47B88A/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A6B33A6FD67ECA47B0E6B02A2A47B88A/Text/@EntryValue">private double _$name$;&#xD;
+public double $NAME$ { &#xD;
+		get =&gt; _$name$; &#xD;
+		set =&gt; SetPropertyValue(nameof($NAME$), ref _$name$, value);&#xD;
+	}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A6B33A6FD67ECA47B0E6B02A2A47B88A/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A6B33A6FD67ECA47B0E6B02A2A47B88A/Field/=name/Expression/@EntryValue">decapitalize(NAME)</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A6B33A6FD67ECA47B0E6B02A2A47B88A/Field/=name/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A6B33A6FD67ECA47B0E6B02A2A47B88A/Field/=name/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A6B33A6FD67ECA47B0E6B02A2A47B88A/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A6B33A6FD67ECA47B0E6B02A2A47B88A/Field/=NAME/Expression/@EntryValue">suggestVariableName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A6B33A6FD67ECA47B0E6B02A2A47B88A/Field/=NAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A6B33A6FD67ECA47B0E6B02A2A47B88A/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A6B33A6FD67ECA47B0E6B02A2A47B88A/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A6B33A6FD67ECA47B0E6B02A2A47B88A/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5774B74028D5341B456757B249B5043/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5774B74028D5341B456757B249B5043/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5774B74028D5341B456757B249B5043/Categories/=Sultan_0020CRM/@EntryIndexedValue">Sultan CRM</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5774B74028D5341B456757B249B5043/Description/@EntryValue">XAF: Rule Unique Value</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5774B74028D5341B456757B249B5043/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5774B74028D5341B456757B249B5043/Shortcut/@EntryValue">ruv</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5774B74028D5341B456757B249B5043/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5774B74028D5341B456757B249B5043/Text/@EntryValue">   [RuleUniqueValue("RuleUniqueValue for $Source$.$Name$", DefaultContexts.Save, "$Name$ bestaat al!")]</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5774B74028D5341B456757B249B5043/Field/=Name/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5774B74028D5341B456757B249B5043/Field/=Name/Expression/@EntryValue">typeMember()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5774B74028D5341B456757B249B5043/Field/=Name/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5774B74028D5341B456757B249B5043/Field/=Source/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5774B74028D5341B456757B249B5043/Field/=Source/Expression/@EntryValue">typeName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5774B74028D5341B456757B249B5043/Field/=Source/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5774B74028D5341B456757B249B5043/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5774B74028D5341B456757B249B5043/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5774B74028D5341B456757B249B5043/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C219FBC5C83791448B54ABD70A4CB06D/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C219FBC5C83791448B54ABD70A4CB06D/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C219FBC5C83791448B54ABD70A4CB06D/Categories/=Sultan_0020CRM/@EntryIndexedValue">Sultan CRM</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C219FBC5C83791448B54ABD70A4CB06D/Description/@EntryValue">XAF: XPO Persistent Alias</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C219FBC5C83791448B54ABD70A4CB06D/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C219FBC5C83791448B54ABD70A4CB06D/Shortcut/@EntryValue">xpalias</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C219FBC5C83791448B54ABD70A4CB06D/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C219FBC5C83791448B54ABD70A4CB06D/Text/@EntryValue">[PersistentAlias("[Contacts].Count()")]&#xD;
+public int $NAME$&#xD;
+{&#xD;
+    get { return Convert.ToInt32(EvaluateAlias(nameof($NAME$))); }&#xD;
+}&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C219FBC5C83791448B54ABD70A4CB06D/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C219FBC5C83791448B54ABD70A4CB06D/Field/=NAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C219FBC5C83791448B54ABD70A4CB06D/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C219FBC5C83791448B54ABD70A4CB06D/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C219FBC5C83791448B54ABD70A4CB06D/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C986EBA23AC9E244B8024A75B5EAA1CE/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C986EBA23AC9E244B8024A75B5EAA1CE/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C986EBA23AC9E244B8024A75B5EAA1CE/Categories/=Sultan_0020CRM/@EntryIndexedValue">Sultan CRM</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C986EBA23AC9E244B8024A75B5EAA1CE/Description/@EntryValue">XAF: XPO DateTime Prop</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C986EBA23AC9E244B8024A75B5EAA1CE/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C986EBA23AC9E244B8024A75B5EAA1CE/Shortcut/@EntryValue">xpd8</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C986EBA23AC9E244B8024A75B5EAA1CE/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C986EBA23AC9E244B8024A75B5EAA1CE/Text/@EntryValue">private DateTime _$name$;&#xD;
+public DateTime $NAME$ { &#xD;
+		get =&gt; _$name$; &#xD;
+		set =&gt; SetPropertyValue(nameof($NAME$), ref _$name$, value);&#xD;
+	}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C986EBA23AC9E244B8024A75B5EAA1CE/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C986EBA23AC9E244B8024A75B5EAA1CE/Field/=name/Expression/@EntryValue">decapitalize(NAME)</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C986EBA23AC9E244B8024A75B5EAA1CE/Field/=name/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C986EBA23AC9E244B8024A75B5EAA1CE/Field/=name/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C986EBA23AC9E244B8024A75B5EAA1CE/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C986EBA23AC9E244B8024A75B5EAA1CE/Field/=NAME/Expression/@EntryValue">suggestVariableName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C986EBA23AC9E244B8024A75B5EAA1CE/Field/=NAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C986EBA23AC9E244B8024A75B5EAA1CE/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C986EBA23AC9E244B8024A75B5EAA1CE/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C986EBA23AC9E244B8024A75B5EAA1CE/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CBA18C002B2C5A4BBFA3FBC5C75091EF/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CBA18C002B2C5A4BBFA3FBC5C75091EF/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CBA18C002B2C5A4BBFA3FBC5C75091EF/Categories/=Sultan_0020CRM/@EntryIndexedValue">Sultan CRM</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CBA18C002B2C5A4BBFA3FBC5C75091EF/Description/@EntryValue">XAF: Attribute Non Visable</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CBA18C002B2C5A4BBFA3FBC5C75091EF/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CBA18C002B2C5A4BBFA3FBC5C75091EF/Shortcut/@EntryValue">attnv</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CBA18C002B2C5A4BBFA3FBC5C75091EF/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CBA18C002B2C5A4BBFA3FBC5C75091EF/Text/@EntryValue">[VisibleInListView(false)]&#xD;
+[VisibleInDetailView(false)]&#xD;
+[VisibleInLookupListView(false)]</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CBA18C002B2C5A4BBFA3FBC5C75091EF/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CBA18C002B2C5A4BBFA3FBC5C75091EF/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CBA18C002B2C5A4BBFA3FBC5C75091EF/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D28C3298BF5CE2449740AD541243B373/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D28C3298BF5CE2449740AD541243B373/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D28C3298BF5CE2449740AD541243B373/Categories/=Sultan_0020CRM/@EntryIndexedValue">Sultan CRM</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D28C3298BF5CE2449740AD541243B373/Description/@EntryValue">XAF: Popup Window action template</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D28C3298BF5CE2449740AD541243B373/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D28C3298BF5CE2449740AD541243B373/Shortcut/@EntryValue">actpopw</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D28C3298BF5CE2449740AD541243B373/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D28C3298BF5CE2449740AD541243B373/Text/@EntryValue">#region Popup Window action: $NAME$
+    // ToDo: Move this to the contstructor 
+    // Initialize$NAME$();
+
+private PopupWindowShowAction _$name$;
+private DetailView _detailView;
+private $NAME$Popup _$name$Popup;
+
+private void Initialize$NAME$() {
+    _$name$ = new PopupWindowShowAction(this, nameof(_$name$), PredefinedCategory.View) {
+        Caption = "$NAME$",
+        ConfirmationMessage = null,
+        ImageName = "ModelEditor_Application",
+        PaintStyle = ActionItemPaintStyle.CaptionAndImage,
+        SelectionDependencyType = SelectionDependencyType.Independent,
+        ToolTip = null,
+        TargetObjectType = typeof($TYPE$),
+        TargetViewType = ViewType.Any,
+        TargetViewNesting = Nesting.Any,
+        TargetObjectsCriteriaMode = TargetObjectsCriteriaMode.TrueAtLeastForOne,
+    };
+
+    _$name$.CustomizePopupWindowParams += $NAME$CustomizePopupWindowParams;
+    _$name$.Execute += $NAME$Execute;
+
+    this.Actions.Add(_$name$);
+
+    void $NAME$CustomizePopupWindowParams(object sender, CustomizePopupWindowParamsEventArgs e) {
+        var objectSpace = Application.CreateObjectSpace(typeof($TYPE$));
+
+        _$name$Popup = objectSpace.CreateObject &lt;$NAME$Popup&gt;();
+        _detailView = Application.CreateDetailView(objectSpace, _$name$Popup);
+        _detailView.ViewEditMode = DevExpress.ExpressApp.Editors.ViewEditMode.Edit;
+
+        e.View = _detailView;
+    }
+
+    void $NAME$Execute(object sender, SimpleActionExecuteEventArgs e) {
+        using var ios = Application.CreateObjectSpace(typeof($TYPE$));
+
+        ios.CommitChanges();
+
+        View.Refresh(true);
+            $END$
+    }
+}
+
+// ================================================================
+// ToDo: Move to Models directory
+// Action Parameters....
+// ================================================================
+[NonPersistent]
+public class $NAME$Popup : BaseObject {
+public $NAME$Popup(Session session) : base(session) { }
+}
+
+#endregion Popup Window action: $NAME$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D28C3298BF5CE2449740AD541243B373/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D28C3298BF5CE2449740AD541243B373/Field/=name/Expression/@EntryValue">decapitalize(NAME)</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D28C3298BF5CE2449740AD541243B373/Field/=name/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D28C3298BF5CE2449740AD541243B373/Field/=name/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D28C3298BF5CE2449740AD541243B373/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D28C3298BF5CE2449740AD541243B373/Field/=NAME/InitialRange/@EntryValue">2</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D28C3298BF5CE2449740AD541243B373/Field/=NAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D28C3298BF5CE2449740AD541243B373/Field/=TYPE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D28C3298BF5CE2449740AD541243B373/Field/=TYPE/Expression/@EntryValue">parameterOfType("System.String")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D28C3298BF5CE2449740AD541243B373/Field/=TYPE/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D28C3298BF5CE2449740AD541243B373/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D28C3298BF5CE2449740AD541243B373/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D28C3298BF5CE2449740AD541243B373/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=4386F01B791C56499C7EA059B55FFB54/TodoIconStyle/@EntryValue">Warning</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=4FD07551264F7540A7E23680ABB7E85D/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=4FD07551264F7540A7E23680ABB7E85D/MatchComments/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=4FD07551264F7540A7E23680ABB7E85D/Name/@EntryValue">Smells</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=4FD07551264F7540A7E23680ABB7E85D/Pattern/@EntryValue">(?&lt;=\W|^)(?&lt;TAG&gt;SMELLS)(\W|$)(.*)</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=4FD07551264F7540A7E23680ABB7E85D/TodoIconStyle/@EntryValue">Warning</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=4FDB1692CF21854FACF139AC0E53D79D/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=4FDB1692CF21854FACF139AC0E53D79D/MatchComments/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=4FDB1692CF21854FACF139AC0E53D79D/Name/@EntryValue">Hack</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=4FDB1692CF21854FACF139AC0E53D79D/Pattern/@EntryValue">(?&lt;=\W|^)(?&lt;TAG&gt;HACK)(\W|$)(.*)</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=4FDB1692CF21854FACF139AC0E53D79D/TodoIconStyle/@EntryValue">Warning</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=5F0A39DA2F96ED49A5F20A334EA763C6/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=5F0A39DA2F96ED49A5F20A334EA763C6/MatchComments/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=5F0A39DA2F96ED49A5F20A334EA763C6/Name/@EntryValue">Note</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=5F0A39DA2F96ED49A5F20A334EA763C6/Pattern/@EntryValue">(?&lt;=\W|^)(?&lt;TAG&gt;NOTE	)(\W|$)(.*)</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=5F0A39DA2F96ED49A5F20A334EA763C6/TodoIconStyle/@EntryValue">Info</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=98B23C98A447E24B936B24287F7F252F/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=98B23C98A447E24B936B24287F7F252F/MatchComments/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=98B23C98A447E24B936B24287F7F252F/Name/@EntryValue">WTF</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=98B23C98A447E24B936B24287F7F252F/Pattern/@EntryValue">(?&lt;=\W|^)(?&lt;TAG&gt;WTF)(\W|$)(.*)</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=98B23C98A447E24B936B24287F7F252F/TodoIconStyle/@EntryValue">Error</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=A342A4DF2E7A724097F308C3AB004A85/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=A342A4DF2E7A724097F308C3AB004A85/MatchComments/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=A342A4DF2E7A724097F308C3AB004A85/Name/@EntryValue">FixMe</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=A342A4DF2E7A724097F308C3AB004A85/Pattern/@EntryValue">(?&lt;=\W|^)(?&lt;TAG&gt;FIXME)(\W|$)(.*)</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=A342A4DF2E7A724097F308C3AB004A85/TodoIconStyle/@EntryValue">Warning</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=DB37CD6CB660794BABD659E9523C0DAE/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=DB37CD6CB660794BABD659E9523C0DAE/MatchComments/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=DB37CD6CB660794BABD659E9523C0DAE/Name/@EntryValue">Broken</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=DB37CD6CB660794BABD659E9523C0DAE/Pattern/@EntryValue">(?&lt;=\W|^)(?&lt;TAG&gt;BROKEN)(\W|$)(.*)</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=DB37CD6CB660794BABD659E9523C0DAE/TodoIconStyle/@EntryValue">Error</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=DE6D589989F36546B17C54F861A3A3A3/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=DE6D589989F36546B17C54F861A3A3A3/MatchComments/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=DE6D589989F36546B17C54F861A3A3A3/Name/@EntryValue">Error</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=DE6D589989F36546B17C54F861A3A3A3/Pattern/@EntryValue">(?&lt;=\W|^)(?&lt;TAG&gt;ERROR)(\W|$)(.*)</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=DE6D589989F36546B17C54F861A3A3A3/TodoIconStyle/@EntryValue">Error</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=E157E4D16DAFA94992D4BE31D71C4101/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=E157E4D16DAFA94992D4BE31D71C4101/MatchComments/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=E157E4D16DAFA94992D4BE31D71C4101/Name/@EntryValue">Review</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=E157E4D16DAFA94992D4BE31D71C4101/Pattern/@EntryValue">(?&lt;=\W|^)(?&lt;TAG&gt;REVIEW)(\W|$)(.*)</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=E157E4D16DAFA94992D4BE31D71C4101/TodoIconStyle/@EntryValue">Warning</s:String></wpf:ResourceDictionary>

@@ -1,8 +1,16 @@
 # Rider XAF Live Templates
 
-This file is located \Users\<User Name>\AppData\Roaming\JetBrains\<Rider Version>\resharper-host\
+This repository contains various XAF (eXpressApp Framework) live templates for JetBrains Rider. These templates help streamline the development process by providing quick code snippets for common tasks.
 
-Contains the following XAF templates:
+## Installation
+
+To use these templates, place the files in the following directory:
+
+This file is located /Users/{User Name}/AppData/Roaming/JetBrains/{Rider Version}/resharper-host/
+
+## Available Live Templates
+
+The following XAF live templates are included in this repository:
 
 <details>
   <summary><i>Action Disable</i></summary>
@@ -93,3 +101,11 @@ Contains the following XAF templates:
   <summary><i>XPO String Property</i></summary>
   Live Code template: <b>xps</b>
 </details>
+
+## Contributing
+
+If you have suggestions or improvements, feel free to open an issue or create a pull request.
+
+## License
+
+This project is licensed under the MIT License.

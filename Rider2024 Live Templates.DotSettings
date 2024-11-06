@@ -33,6 +33,26 @@ using DevExpress.Xpo;
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E1E2422D4266F418CB379A846D5EFE3/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E1E2422D4266F418CB379A846D5EFE3/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E1E2422D4266F418CB379A846D5EFE3/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E9DFC756B8BE74CB29B1C58159A897B/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E9DFC756B8BE74CB29B1C58159A897B/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E9DFC756B8BE74CB29B1C58159A897B/Categories/=Sultan_0020CRM/@EntryIndexedValue">Sultan CRM</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E9DFC756B8BE74CB29B1C58159A897B/Description/@EntryValue">XAF: RuleFromBoolProperty</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E9DFC756B8BE74CB29B1C58159A897B/Field/=Name/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E9DFC756B8BE74CB29B1C58159A897B/Field/=Name/Expression/@EntryValue">typeMember()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E9DFC756B8BE74CB29B1C58159A897B/Field/=Name/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E9DFC756B8BE74CB29B1C58159A897B/Field/=Prop/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E9DFC756B8BE74CB29B1C58159A897B/Field/=Prop/Expression/@EntryValue">clipboard()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E9DFC756B8BE74CB29B1C58159A897B/Field/=Prop/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E9DFC756B8BE74CB29B1C58159A897B/Field/=Source/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E9DFC756B8BE74CB29B1C58159A897B/Field/=Source/Expression/@EntryValue">typeName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E9DFC756B8BE74CB29B1C58159A897B/Field/=Source/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E9DFC756B8BE74CB29B1C58159A897B/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E9DFC756B8BE74CB29B1C58159A897B/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E9DFC756B8BE74CB29B1C58159A897B/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E9DFC756B8BE74CB29B1C58159A897B/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E9DFC756B8BE74CB29B1C58159A897B/Shortcut/@EntryValue">rrb</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E9DFC756B8BE74CB29B1C58159A897B/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E9DFC756B8BE74CB29B1C58159A897B/Text/@EntryValue">[RuleFromBoolProperty("RuleFromBoolProperty for $Source$.$Name$", DefaultContexts.Save, "$Prop$ is onjuist!",UsedProperties = nameof($Prop$))]</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=114CAE40334756458DF914559FA65BBF/Text/@EntryValue">#region $name$&#xD;
      $SELECTION$$END$&#xD;
   #endregion $name$</s:String>
